@@ -3,7 +3,7 @@
 $pageTitle = "Kezdőlap";
 // Hírek kiolvasása adatbázisból:
 
-$query = "SELECT * FROM `news`";
+$query = "SELECT * FROM `news` WHERE corrector_id IS NOT NULL AND publication_date<='".date('Y-m-d H:i:s')."'";
 $news = $db->query($query);
 if ($db->errno) {
   die($db->error);

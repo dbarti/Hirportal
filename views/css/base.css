@@ -6,18 +6,19 @@
 body {
   margin: 0;
 }
-
 #header {
-  background-color: #c194f5;
-  padding: 10px 20px;
+  background: url(../head.jpg)no-repeat;
+  background-size:contain;
+  //height:264px;
+      padding: 0;
 }
 #header h1#sitename {
   margin: 0;
 }
 
 #content {
-  padding: 10px 20px;
-  background-color: #ede8be;
+  padding: 40px 20px;
+  background-color: #DCDCDC;
 }
 
 .news {
@@ -38,7 +39,34 @@ body {
 }
 
 #footer {
-  background-color: #7b0603;
+  background-color: grey;
   color: white;
-  padding: 10px 20px;
+  padding: 0px px;
 }
+.nav>li>a {
+    background-color: white;
+    
+}.nav>li>a:hover {
+    background: #DCDCDC;
+    
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: black;
+  background-color: #DCDCDC;
+}
+.nav-pills>li>a {
+  border-radius: 0px;
+  color:black;
+}
+#sitename {
+    height:240px;
+    max-width:1366px;
+/*    background: url(../head.jpg)no-repeat;*/
+}
+#sitename span {
+    visibility: hidden;
+   }
+   #navigation{
+       padding: 0px;
+       background-color: white;
+   } 

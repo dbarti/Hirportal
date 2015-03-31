@@ -1,6 +1,6 @@
-        <div id="footer">
-            Készítette KM &copy; 2014
-        </div>
-        
-    </body>
+<div id="footer">
+      Készítette: Barti Dániel &copy; 2015
+    </div>
+
+  </body>
 </html>

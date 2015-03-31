@@ -1,7 +1,6 @@
 <?php include('includes/header.php'); ?>
 
 <div id="content">
-  <h2><?php echo $page['title']; ?></h2>
   
   <?php echo $page['text']; ?>
   
@@ -11,7 +10,7 @@
     <br>
     <input type="text" name="contactName">
     <br>
-    <label>e-mail:</label>
+    <label>E-mail cím:</label>
     <br>
     <input type="email" name="contactEmail">
     <br>
@@ -21,8 +20,6 @@
     <br>
     <input type="submit" name="contactSubmit">
   </form>
-    
-  <p>Google map
 
 </div>
 
